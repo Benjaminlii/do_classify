@@ -27,7 +27,10 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     "http://benjaminlee.cn",
-    "http://127.0.0.1"
+    "127.0.0.1",
+    "49.235.228.156",
+    "0.0.0.0",
+    "localhost"
 ]
 
 
