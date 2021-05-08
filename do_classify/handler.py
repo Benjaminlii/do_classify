@@ -23,6 +23,8 @@ def do_classify(request):
     json_result = json.loads(post_body)
     image_path = json_result["image_path"]
 
+    print(image_path)
+
     code = get_code(image_path)
     return HttpResponse(json.dumps({"code": code}))
 
