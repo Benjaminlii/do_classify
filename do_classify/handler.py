@@ -25,7 +25,7 @@ def do_classify(request):
 
     code = get_code(image_path)
 
-    print("image_path = " + image_path + ", code = " + code)
+    print("image_path = ", image_path, ", code = ", code)
 
     return HttpResponse(json.dumps({"code": code}))
 
